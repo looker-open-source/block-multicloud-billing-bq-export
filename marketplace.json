@@ -1,0 +1,23 @@
+{
+  "label": "Cloud Billing - Multicloud Billing BigQuery Export",
+  "category_label": "Models",
+  "branding": {
+    "image_uri": "https://wwwstatic-a.lookercdn.com/blocks/logos/aws.png",
+    "tagline": "TODO"
+  },
+  "constants": {
+    "MULTICLOUD_BILLING_EXPORT_CONNECTION_NAME": {
+      "label": "BigQuery Connection Name",
+      "value_constraint": "connection"
+    },
+    "MULTICLOUD_BILLING_EXPORT_DATASET": {
+      "label": "BigQuery Dataset"
+    }
+  },
+  "models": [
+    {
+      "name": "marketplace_multicloud_billing_export",
+      "connection_constant": "MULTICLOUD_BILLING_EXPORT_CONNECTION_NAME"
+    }
+  ]
+}
