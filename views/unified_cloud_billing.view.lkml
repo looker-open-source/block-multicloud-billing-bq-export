@@ -59,7 +59,7 @@ view: unified_cloud_billing {
   dimension: cost {
     hidden: yes
     type: number
-    sql: ${TABLE}.cost*200 ;;
+    sql: ${TABLE}.cost ;;
     value_format_name: usd
   }
 
