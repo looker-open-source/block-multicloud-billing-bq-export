@@ -1,5 +1,5 @@
 view: cloud_provider {
-  sql_table_name: `@{MULTICLOUD_BILLING_EXPORT_DATASET}.cloud_provider`
+  sql_table_name: `@{MULTICLOUD_BILLING_EXPORT_PROJECT}.@{MULTICLOUD_BILLING_EXPORT_DATASET}.cloud_provider`
     ;;
 
   dimension: cloud_provider {

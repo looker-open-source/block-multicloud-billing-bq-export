@@ -5,6 +5,11 @@ constant: MULTICLOUD_BILLING_EXPORT_CONNECTION_NAME {
   value: "mw-alpha-cloud-usage"
 }
 
+constant: MULTICLOUD_BILLING_EXPORT_PROJECT {
+  export: override_required
+  value: "mw-alpha-cloud-cost-usage"
+}
+
 constant: MULTICLOUD_BILLING_EXPORT_DATASET {
   export: override_required
   value: "cloud_cost_final"

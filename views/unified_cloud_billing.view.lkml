@@ -1,5 +1,5 @@
 view: unified_cloud_billing {
-  sql_table_name:  `@{MULTICLOUD_BILLING_EXPORT_DATASET}.unified_cloud_billing_date_impute`
+  sql_table_name:  `@{MULTICLOUD_BILLING_EXPORT_PROJECT}.@{MULTICLOUD_BILLING_EXPORT_DATASET}.unified_cloud_billing_date_impute`
     ;;
 
   dimension: billing_account_key {

@@ -1,5 +1,5 @@
 view: product_name {
-  sql_table_name: `@{MULTICLOUD_BILLING_EXPORT_DATASET}.product_name`
+  sql_table_name: `@{MULTICLOUD_BILLING_EXPORT_PROJECT}.@{MULTICLOUD_BILLING_EXPORT_DATASET}.product_name`
     ;;
 
   dimension: product_name {

@@ -1,5 +1,5 @@
 view: service {
-  sql_table_name: `@{MULTICLOUD_BILLING_EXPORT_DATASET}.service`
+  sql_table_name: `@{MULTICLOUD_BILLING_EXPORT_PROJECT}.@{MULTICLOUD_BILLING_EXPORT_DATASET}.service`
     ;;
   drill_fields: [service_id]
 

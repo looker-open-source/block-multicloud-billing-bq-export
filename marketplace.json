@@ -10,6 +10,9 @@
       "label": "BigQuery Connection Name",
       "value_constraint": "connection"
     },
+    "MULTICLOUD_BILLING_EXPORT_PROJECT": {
+      "label": "BigQuery Project"
+    },
     "MULTICLOUD_BILLING_EXPORT_DATASET": {
       "label": "BigQuery Dataset"
     }

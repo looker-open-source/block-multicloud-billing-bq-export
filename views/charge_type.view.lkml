@@ -1,5 +1,5 @@
 view: charge_type {
-  sql_table_name: `@{MULTICLOUD_BILLING_EXPORT_DATASET}.charge_type` ;;
+  sql_table_name: `@{MULTICLOUD_BILLING_EXPORT_PROJECT}.@{MULTICLOUD_BILLING_EXPORT_DATASET}.charge_type` ;;
 
   dimension: charge_type {
     type: string

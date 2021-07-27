@@ -1,5 +1,5 @@
 view: billing_account {
-  sql_table_name: `@{MULTICLOUD_BILLING_EXPORT_DATASET}.billing_account` ;;
+  sql_table_name: `@{MULTICLOUD_BILLING_EXPORT_PROJECT}.@{MULTICLOUD_BILLING_EXPORT_DATASET}.billing_account` ;;
   drill_fields: [billing_account_id]
 
   dimension: billing_account_id {

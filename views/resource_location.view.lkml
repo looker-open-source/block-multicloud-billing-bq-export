@@ -1,5 +1,5 @@
 view: resource_location {
-  sql_table_name: `@{MULTICLOUD_BILLING_EXPORT_DATASET}.resource_location`
+  sql_table_name: `@{MULTICLOUD_BILLING_EXPORT_PROJECT}.@{MULTICLOUD_BILLING_EXPORT_DATASET}.resource_location`
     ;;
 
   dimension: resource_location {

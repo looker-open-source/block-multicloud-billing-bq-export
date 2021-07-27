@@ -1,5 +1,5 @@
 view: project {
-  sql_table_name: `@{MULTICLOUD_BILLING_EXPORT_DATASET}.project`
+  sql_table_name: `@{MULTICLOUD_BILLING_EXPORT_PROJECT}.@{MULTICLOUD_BILLING_EXPORT_DATASET}.project`
     ;;
   drill_fields: [project_id]
 

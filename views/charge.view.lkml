@@ -1,5 +1,5 @@
 view: charge {
-  sql_table_name: `@{MULTICLOUD_BILLING_EXPORT_DATASET}.charge` ;;
+  sql_table_name: `@{MULTICLOUD_BILLING_EXPORT_PROJECT}.@{MULTICLOUD_BILLING_EXPORT_DATASET}.charge` ;;
   drill_fields: [charge_id]
 
   dimension: charge_id {

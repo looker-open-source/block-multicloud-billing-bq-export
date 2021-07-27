@@ -1,5 +1,5 @@
 view: service_type {
-  sql_table_name: `@{MULTICLOUD_BILLING_EXPORT_DATASET}.service_type`
+  sql_table_name: `@{MULTICLOUD_BILLING_EXPORT_PROJECT}.@{MULTICLOUD_BILLING_EXPORT_DATASET}.service_type`
     ;;
 
   dimension: service_category {
