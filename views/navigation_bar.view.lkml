@@ -15,7 +15,7 @@ view: +unified_cloud_billing {
       <div style=" background-color: #FFF; border: solid 2px ##9AA0A6; border-radius: 5px; padding: 5px 10px; height: 60px; width:100%">
         <nav style="font-size: 16px; color: #FFF">
           <a style="padding: 5px; float: center; line-height: 40px; margin-left: 9px; color: black">NAVIGATE TO :  </a>
-          <a style="padding: 5px; float: center; line-height: 40px; margin-left: 9px; color: #4285F4" href="/dashboards/gcp_billing_block::gcp_summary">GCP SUMMARY</a>
+          <a style="padding: 5px; float: center; line-height: 40px; margin-left: 9px; color: #4285F4" href="/dashboards/gcp_billing_block::cost_summary">GCP SUMMARY</a>
           <a style="padding: 5px; float: center; line-height: 40px; margin-left: 9px; color: #4285F4" href="/dashboards/azure_billing_block::azure_summary">AZURE SUMMARY</a>
           <a style="padding: 5px; float: center; line-height: 40px; margin-left: 9px; color: #4285F4" href="/dashboards/aws_billing_block::aws_summary">AWS SUMMARY</a>
         </nav>
